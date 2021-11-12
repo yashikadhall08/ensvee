@@ -1,0 +1,401 @@
+.sign-up-big-div {
+  position: absolute;
+  width: 1100px;
+  height: 640px;
+  left: 250px;
+  top: 280px;
+
+  background: #ffffff;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.sign-up-right-div {
+  position: absolute;
+  width: 550px;
+  height: 640px;
+  left: 550px;
+  top: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #272b3f;
+}
+
+.sign-up-btn {
+  position: absolute;
+  width: 376px;
+  height: 55px;
+  left: 87px;
+  top: 505px;
+
+  background: linear-gradient(180deg, #7bb4f8 0%, #73aaeb 100%);
+  border-radius: 10px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 17px */
+
+  color: #ffffff;
+
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.sign-up-head {
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 87px;
+  top: 70px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 110%;
+  /* identical to box height, or 40px */
+
+  color: #282c40;
+}
+
+.sign-up-welcome-text {
+  position: absolute;
+  width: 376px;
+  height: 18px;
+  left: 87px;
+  top: 125px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  /* identical to box height, or 18px */
+
+  color: rgba(40, 44, 64, 0.6);
+}
+
+.sign-up-lable-text-fname {
+  position: absolute;
+  width: 58px;
+  height: 13px;
+  left: 87px;
+  top: 182px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+
+  color: #82869a;
+
+  /* color: red; */
+}
+
+.sign-up-lable-text-email {
+  position: absolute;
+  width: 62px;
+  height: 13px;
+  left: 87px;
+  top: 259px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+
+  color: #82869a;
+  /* color: red; */
+}
+
+.sign-up-lable-text-password {
+  position: absolute;
+  width: 59px;
+  height: 13px;
+  left: 87px;
+  top: 336px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+
+  color: #82869a;
+}
+
+.sign-up-lable-text-rpassword {
+  position: absolute;
+  width: 105px;
+  height: 13px;
+  left: 87px;
+  top: 413px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  /* or 13px */
+
+  color: #82869a;
+}
+
+.fname-input {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 212px;
+  padding-bottom: 10px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+
+  /* background: #ebebeb; */
+}
+.email-input {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 289px;
+
+  padding-bottom: 10px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+
+  /* background: #ebebeb; */
+}
+
+.fname-input:focus {
+  outline: none;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.password-input:focus {
+  outline: none;
+}
+
+.repassword-input:focus {
+  outline: none;
+}
+
+.password-input {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 366px;
+
+  padding-bottom: 10px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+
+  /* background: #ebebeb; */
+}
+.repassword-input {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 443px;
+  padding-bottom: 10px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+
+  /* background: #ebebeb; */
+}
+
+.remember-me {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 87px;
+  top: 336px;
+
+  background: #ebebeb;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.remember-me-text {
+  position: absolute;
+  width: 101px;
+  height: 15px;
+  left: 117px;
+  top: 339px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  /* or 15px */
+
+  color: rgba(130, 134, 154, 0.6);
+}
+.forgot-password {
+  position: absolute;
+  width: 126px;
+  height: 15px;
+  left: 337px;
+  top: 339px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  /* or 15px */
+
+  color: #f0ae4b;
+}
+
+.line1 {
+  position: absolute;
+  width: 111px;
+  height: 1px;
+  left: 87px;
+  top: 483px;
+  display: inline-block;
+  background: rgba(196, 196, 196, 0.5);
+}
+.line2 {
+  position: absolute;
+  width: 111px;
+  height: 1px;
+  left: 352px;
+  top: 483px;
+
+  background: rgba(196, 196, 196, 0.5);
+}
+.or-continue-with {
+  position: absolute;
+  width: 114px;
+  height: 15px;
+  left: 218px;
+  top: 476px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  /* or 15px */
+
+  color: #b4b6c2;
+}
+
+.go-to-login {
+  position: absolute;
+  width: 199px;
+  height: 27px;
+  left: 200px;
+  top: 583px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 190%;
+  /* identical to box height, or 27px */
+
+  color: #f0ae4b;
+}
+
+.error-fname {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 237px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 190%;
+  font-weight: bold;
+  color: red;
+}
+
+.error-email {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 314px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 190%;
+  font-weight: bold;
+  color: red;
+}
+
+.error-password {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 391px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 190%;
+  font-weight: bold;
+  color: red;
+}
+
+.error-repassword {
+  position: absolute;
+  width: 376px;
+  /* height: 2px; */
+  left: 87px;
+  top: 468px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 190%;
+  font-weight: bold;
+  color: red;
+}
